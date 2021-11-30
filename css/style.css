@@ -1,0 +1,328 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-size: 100%;
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+
+}
+
+nav {
+    background-color: #141414;
+    color: white;
+    font-size: 25px;
+    border: solid 1px #6C7A7A;
+    text-align: center;
+    font-weight: 900;
+    padding: 6px;
+}
+
+header {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.titulo {
+    font-size: 50px;
+
+}
+
+.dados {
+    font-size: 25px;
+    color: white;
+    display: inline-block;
+    padding: 15px;
+    margin-left: 50px;
+
+}
+
+.oferta {
+    font-weight: bold;
+}
+
+.pix {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.app {
+    color: #7A8484;
+
+}
+
+.chave {
+    background-color: white;
+    color: black;
+    display: inline;
+    border-radius: 4px;
+    padding: 7px;
+
+}
+
+.formcontainer {
+
+    float: right;
+    color: white;
+    max-width: 47%;
+}
+
+#p1 {
+    color: #FF6000;
+}
+
+span {
+    color: #FF6000;
+}
+
+#spam {
+    padding-bottom: 8px;
+    padding-top: 8px;
+    color: #7A8484;
+    font-size: 15px;
+}
+
+form {
+    width: 500px;
+}
+
+.input1 {
+    color: #7A8484;
+    width: 150%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.input2 {
+    width: 20%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+
+.titulo1 {
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 1600px) {
+
+
+    /*responsividade abaixo de 1600p ate 1024p */
+
+    nav {
+        background-color: #141414;
+        color: white;
+        font-size: 25px;
+    }
+
+    header {
+        color: white;
+        text-align: center;
+        margin-top: 5px;
+        padding: 20px;
+    }
+
+    .titulo {
+        font-size: 25px;
+
+    }
+
+    .dados {
+        font-size: 15px;
+        color: white;
+        display: inline-block;
+        padding: 15px;
+        margin-left: 50px;
+        margin-right: 0;
+        max-width: 50%;
+
+
+    }
+
+    .oferta {
+        font-weight: bold;
+    }
+
+    .pix {
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    .app {
+        color: #7A8484;
+        max-width: 50%;
+
+    }
+
+    .formcontainer {
+        float: right;
+        color: white;
+        max-width: 38%;
+        margin-right: 40px;
+
+    }
+
+    form {
+        width: 350px;
+    }
+
+    .input1 {
+        color: #7A8484;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 8px;
+        border: none;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+
+    .input2 {
+        width: 30%;
+        box-sizing: border-box;
+        padding: 8px;
+        border: none;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        text-align: center;
+        color: white;
+    }
+
+    .pai {
+        margin-top: -50px;
+    }
+
+    #spam {
+        font-size: 10px;
+    }
+
+    #pd {
+        margin-top: -15px;
+    }
+
+
+    .titulo1 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+    /* resolução para celulares */
+    nav {
+        font-size: 15px;
+        background-size: auto;
+
+    }
+
+    header {
+
+        color: white;
+        margin-top: 5px;
+        padding: 20px;
+    }
+
+    .titulo {
+        font-size: 45px;
+        max-width: 80%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    #p1 {
+        font-size: 12px;
+        margin: -10px;
+    }
+
+    .dados {
+        margin-top: 50px;
+        max-width: 100%;
+        margin: 20px;
+        font-size: 30px;
+
+    }
+
+    .oferta {
+        margin-left: auto;
+        font-weight: bold;
+    }
+
+    .pix {
+        font-weight: bold;
+        font-size: 45px;
+    }
+
+    .app {
+        color: #7A8484;
+        max-width: 100%;
+    }
+
+    .chave {
+        font-size: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    .formcontainer {
+        float: none;
+        color: white;
+        max-width: 100%;
+        margin: 20px;
+        padding: 20px;
+        margin-top: 0;
+    }
+
+    .titulo1 {
+        font-size: 25px;
+    }
+
+    #pd {
+        font-size: 18px;
+        margin-top: 0;
+    }
+
+    #spam {
+        font-size: 15px;
+    }
+
+
+
+    form {
+        width: 300px;
+    }
+
+    .input1 {
+        color: #7A8484;
+        width: 90%;
+        box-sizing: border-box;
+        padding: 12px;
+        border: none;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+
+
+    .input2 {
+        width: 30%;
+        box-sizing: border-box;
+        padding: 12px;
+        border: none;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        text-align: center;
+        color: white;
+    }
+
+}
